@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about-me.css" />
+    <title>News App | About Me</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div>
+        <a href="news-feed.html">Home</a>
+      </div>
+      <div>
+        <a href="recently-viewed.html">Recents</a>
+      </div>
+      <div>
+        <a href="about-me.html">About</a>
+      </div>
+    </nav>
+    <h1 class="header">About Me</h1>
+    <div class="about-me-text">
+      Hi, I'm Harrison Oustalet. I'm 14 years old wanting to become a software
+      engineer. This news app works by feeding the user news articles and when
+      clicked, saved into a recently viewed articles page where you can look
+      back on artciles you've read. It's pretty simple.
+    </div>
+    <div class="socials">
+      <div>
+        Check out my instagram:
+        <button class="insta" onclick="openInsta()">
+          <span class="line-md--instagram"></span>
+        </button>
+      </div>
+      <div>
+        See my other projects on GitHub:
+        <button class="github" onclick="openGitHub()">
+          <span class="mingcute--github-line"></span>
+        </button>
+      </div>
+    </div>
+    <script>
+      function openInsta() {
+        window.open("https://www.instagram.com/harrison.oust");
+      }
+
+      function openGitHub() {
+        window.open("https://github.com/harrison-oustalet");
+      }
+    </script>
+  </body>
+</html>
